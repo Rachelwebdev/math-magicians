@@ -1,6 +1,5 @@
-/* eslint-disable */
-import "./App.css";
-import Calculator from "./components/calculator";
+import './App.css';
+import Calculator from './components/calculator';
 
 function App() {
   return (
@@ -11,4 +10,3 @@ function App() {
 }
 
 export default App;
-``;
