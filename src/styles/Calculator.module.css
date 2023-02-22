@@ -62,7 +62,20 @@
 }
 
 @media (max-width: 768px) {
+  .calculatorMain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .calcText {
+    width: 100%;
+    text-align: center;
+  }
+
   .calcContainer {
-    /* max-width: 70%; */
+    width: 70%;
+    padding-bottom: 3rem;
   }
 }
