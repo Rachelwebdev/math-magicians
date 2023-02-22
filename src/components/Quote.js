@@ -1,11 +1,18 @@
 import React from 'react';
+import styles from '../styles/Quote.module.css';
 
 function Quote() {
   return (
     <>
-      <p className="quoteText">
-        Mathematics is not about numbers, equations, computations, or
-        algorithms: it is about understanding. -William Paul Thurston
+      <p className={styles.quoteText}>
+        Mathematics, rightly viewed, possesses not only truth, but supreme
+        beauty — a beauty cold and austere, like that of sculpture, without
+        appeal to any part of our weaker nature, without the gorgeous trappings
+        of painting or music, yet sublimely pure, and capable of a stern
+        perfection such as only the greatest art can show.
+        <br />
+        <br />
+        <p className={styles.quoteOwner}>~ Bertrand Russell</p>
       </p>
     </>
   );
