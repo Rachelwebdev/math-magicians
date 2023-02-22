@@ -1,5 +1,3 @@
-'use strict';
-
 import renderer from 'react-test-renderer';
 import Quote from '../components/Quote';
 

@@ -21,7 +21,7 @@ describe('Unit testing for operate.js', () => {
   });
   test("check 5 % 0 to equal Can't find modulo as can't divide by 0.", () => {
     expect(operate('5', '0', '%')).toBe(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
 });

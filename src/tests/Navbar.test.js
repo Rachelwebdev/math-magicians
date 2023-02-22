@@ -9,7 +9,7 @@ it('Footer renders correctly', () => {
     .create(
       <MemoryRouter>
         <Navbar />
-      </MemoryRouter>
+      </MemoryRouter>,
     )
     .toJSON();
 
