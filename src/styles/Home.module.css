@@ -1,0 +1,17 @@
+.homeContainer {
+  border: 2px solid rgb(243, 138, 32);
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.heading {
+  padding-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 4rem;
+}
+
+.paragrapgh {
+  letter-spacing: 1px;
+}
