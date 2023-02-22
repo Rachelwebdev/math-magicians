@@ -1,0 +1,38 @@
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.navLinks {
+  display: flex;
+  list-style-type: none;
+  margin-right: 2rem;
+}
+
+.navLinks li {
+  padding: 0 2rem;
+  text-decoration-color: rgb(243, 138, 32);
+}
+
+.link {
+  color: rgb(243, 138, 32);
+  transition: 800ms ease-in-out;
+}
+
+.link:hover {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.firstChild,
+.secondChild {
+  border-right: 2px solid white;
+}
+
+.logo {
+  color: rgb(243, 138, 32);
+  font-size: 2rem;
+}
