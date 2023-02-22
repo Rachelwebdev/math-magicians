@@ -1,0 +1,25 @@
+.homeContainer {
+  border: 2px solid rgb(243, 138, 32);
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.heading {
+  padding-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 3rem;
+}
+
+.paragrapgh {
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+}

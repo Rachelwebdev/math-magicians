@@ -1,0 +1,11 @@
+.quoteText {
+  width: 50%;
+  margin: 4rem auto 0;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+.quoteOwner {
+  text-align: right;
+  color: rgb(243, 138, 32);
+}
