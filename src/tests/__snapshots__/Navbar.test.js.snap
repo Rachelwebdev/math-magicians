@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<nav
+  className="navMenu"
+>
+  <h1
+    className="logo"
+  >
+    Math Magician
+  </h1>
+  <ul
+    className="navLinks"
+  >
+    <li
+      className="firstChild"
+    >
+      <a
+        className="link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="secondChild"
+    >
+      <a
+        className="link"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li>
+      <a
+        className="link"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
