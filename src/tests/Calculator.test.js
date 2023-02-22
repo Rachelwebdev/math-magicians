@@ -1,9 +1,9 @@
 'use strict';
 import React from 'react';
 import renderer from 'react-test-renderer';
-import NotFound from '../components/NotFound';
+import Calculator from '../components/calculator';
 
 it('renders correctly', () => {
-  const tree = renderer.create(<NotFound />).toJSON();
+  const tree = renderer.create(<Calculator />).toJSON();
   expect(tree).toMatchSnapshot();
 });
