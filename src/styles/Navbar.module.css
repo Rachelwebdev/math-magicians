@@ -36,3 +36,10 @@
   color: rgb(243, 138, 32);
   font-size: 2rem;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.5rem;
+    border-right: 2px solid white;
+  }
+}
