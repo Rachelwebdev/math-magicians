@@ -64,7 +64,7 @@ A single Page Application Calculator built using React js
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://math-magician-rlk4.onrender.com/quote)
+- [Live Demo Link](https://math-magician-rlk4.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
